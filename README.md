@@ -1,11 +1,6 @@
 # How to use this?
 
-### 1. Clone this repo
+Open powershell and run this one-liner script to install and setup everything.
 ```ps1
-git clone --depth 1 https://github.com/geloman-likes-rust/windows.git $HOME\dotfiles
-```
-
-### 2. Install & setup everything
-```ps1
-$HOME\dotfiles\setup.ps1
+git clone --depth 1 https://github.com/geloman-likes-rust/windows.git $HOME\dotfiles && $HOME\dotfiles\setup.ps1
 ```
