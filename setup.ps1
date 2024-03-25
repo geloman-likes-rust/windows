@@ -12,4 +12,4 @@ New-Item -ItemType SymbolicLink -Path $Env:LOCALAPPDATA\nvim -Target $HOME\dotfi
 
 winget install --accept-source-agreements --id=Neovim.Neovim --exact
 winget install --accept-source-agreements chocolatey.chocolatey
-choco install -y git delta bat fzf ripgrep fd wget unzip gzip mingw make
+choco install -y git delta bat fzf ripgrep fd jg wget unzip gzip mingw make
