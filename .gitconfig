@@ -1,0 +1,48 @@
+[user]
+	name = geloman
+	email = geloman-likes-rust@users.noreply.github.com
+
+[init]
+	defaultBranch = main
+
+[credential "https://github.com"]
+	username = geloman-likes-rust
+	helper = store
+
+[core]
+	editor = vim
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	light = false
+	line-numbers = true
+	line-numbers-minus-style = "#FC2947" bold
+	line-numbers-plus-style = "#03C988" bold
+	minus-style = red bold "#ffeeee"
+	plus-style = green bold "#d6ffd6"
+	line-numbers-zero-style = "#F4F2DE"
+	syntax-theme = 1337
+
+[merge]
+	conflictstyle = diff3
+
+[diff]
+	colorMoved = default
+	tool = vimdiff
+
+[fetch]
+	prune = true
+
+[color]
+	status = auto
+	ui = true
+
+[color "status"]
+	added = green
+	deleted = red
+	changed = red
+	untracked = cyan
