@@ -6,4 +6,4 @@ git clone --depth 1 https://github.com/geloman-likes-rust/windows.git $HOME\dotf
 ```
 
 
-you will find all the sweet stuff [**`here`**](handy-scripts/usage.md).
+you will find all the sweet stuff [**`here`**](handy-scripts/USAGE.md).
