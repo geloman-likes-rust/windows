@@ -2,7 +2,7 @@
 
 **`Step 1.`** Clone this repository
 ```ps1
-git clone --depth 1 https://github.com/geloman-likes-rust/windows.git $Env:UserProfile\dotfiles
+git clone --depth 1 https://github.com/geloman-likes-rust/windows.git $Env:USERPROFILE\dotfiles
 ```
 
 **`Step 2.`** Set Execution Policy
@@ -12,7 +12,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 **`Step 3.`** Run setup script
 ```ps1
-$Env:UserProfile\dotfiles\setup.ps1
+$Env:USERPROFILE\dotfiles\setup.ps1
 ```
 
 
