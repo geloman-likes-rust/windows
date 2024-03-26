@@ -1,8 +1,18 @@
 # How to use this?
 
-Open powershell and run this one-liner script to install and setup everything.
+**`Step 1.`** Clone this repository
 ```ps1
-Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process && git clone --depth 1 https://github.com/geloman-likes-rust/windows.git $HOME\dotfiles && $HOME\dotfiles\setup.ps1
+git clone --depth 1 https://github.com/geloman-likes-rust/windows.git $Env:UserProfile\dotfiles
+```
+
+**`Step 2.`** Set Execution Policy
+```ps1
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+**`Step 3.`** Run setup script
+```ps1
+$Env:UserProfile\dotfiles\setup.ps1
 ```
 
 
