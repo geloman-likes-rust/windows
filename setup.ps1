@@ -8,8 +8,8 @@ New-Item -ItemType SymbolicLink -Path $HOME\.gitconfig -Target $HOME\dotfiles\.g
 if (Test-Path -Path $Env:LOCALAPPDATA\nvim) {
     Move-Item -Path $Env:LOCALAPPDATA\nvim -Destination $Env:LOCALAPPDATA\nvim.bak
 }
-New-Item -ItemType SymbolicLink -Path $Env:LOCALAPPDATA\nvim -Target $HOME\dotfiles\nvim 
+New-Item -ItemType SymbolicLink -Path $Env:LOCALAPPDATA\nvim -Target $HOME\dotfiles\nvim
 
 winget install --accept-source-agreements --id=Neovim.Neovim --exact
 winget install --accept-source-agreements chocolatey.chocolatey
-choco install -y git delta bat fzf ripgrep fd jq wget unzip gzip mingw make
+choco install -y delta bat fzf ripgrep fd jq gawk wget unzip gzip mingw make
