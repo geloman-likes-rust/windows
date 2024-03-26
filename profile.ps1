@@ -1,4 +1,4 @@
-$Env:Path += ";$HOME\dotfiles\handy-scripts\bin"
+$Env:Path += ";$Env:USERPROFILE\dotfiles\handy-scripts\bin"
 
 Set-Alias -Name vi -Value nvim
 Set-Alias -Name vim -Value nvim
