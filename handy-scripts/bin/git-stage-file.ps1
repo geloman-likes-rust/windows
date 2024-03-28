@@ -8,7 +8,7 @@ if($GitFile) {
     exit 0 
 }
 
-$git_files = git ls-files (git rev-parse --show-toplevel) -m --exclude-standard --other 
+$git_files = git ls-files $workspace -m --exclude-standard --other 
 
 if (-not $git_files) {
     Write-Output "working tree clean, nothing to stage" 
