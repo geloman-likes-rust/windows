@@ -16,4 +16,4 @@ $Env:USERPROFILE\dotfiles\setup.ps1
 ```
 
 
-you will find all the sweet stuff [**`here`**](handy-scripts/USAGE.md).
+you will find all the sweet stuff [**`here`**](scripts/USAGE.md).

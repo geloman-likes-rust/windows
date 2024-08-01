@@ -1,4 +1,4 @@
-# [`handy-scripts`](bin) usage guide
+# [`scripts`](bin) usage guide
 
 ## all available scripts:
 
