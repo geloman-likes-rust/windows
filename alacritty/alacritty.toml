@@ -1,0 +1,29 @@
+[font]
+size = 18
+
+[env]
+TERM = "xterm-256color"
+
+[mouse]
+hide_when_typing = true
+
+[window]
+opacity = 0.75
+decorations = "none"
+startup_mode = "Maximized"
+
+[font.normal]
+family = "JetBrainsMono NF"
+
+[cursor.style]
+shape = "Beam"
+blinking = "Off"
+
+[colors.primary]
+background = "#1A212E"
+
+# ctrl + space workaround
+[[key_bindings]]
+key = "Space"
+mods = "Control"
+action = "SendEscape"
